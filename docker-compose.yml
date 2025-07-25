@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+
+  # Este nombre (api) podria haber sido otro, es el nombre que le doy al servicio flask 
+  api:
+
+  # Le digo que carpeta va a ser ese servicio: en donde está su dockerfile.
+    build: .
+
+    ports:
+      - "8080:8080"
+      
+    container_name: flask-demo-pokemon
