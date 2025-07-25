@@ -1,0 +1,18 @@
+{
+    "Ash": [
+      {
+        "id_favorito": 1,
+        "nombre_pokemon": "pikachu"
+      }
+    ],
+    "Misty": [
+      {
+        "id_favorito": 1,
+        "nombre_pokemon": "starmie"
+      },
+      {
+        "id_favorito": 2,
+        "nombre_pokemon": "psyduck"
+      }
+    ]
+  }
