@@ -5,6 +5,7 @@ RUTA_ARCHIVO_FAVORITOS = 'favoritos.json'
 
 #Función interna para leer el archivo JSON. Es para para no repetir código
 def _leer_favoritos():
+    print("llega")
     try:
         with open(RUTA_ARCHIVO_FAVORITOS, 'r') as archivo:
             return json.load(archivo)

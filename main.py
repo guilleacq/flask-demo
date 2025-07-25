@@ -124,6 +124,12 @@ def endpoint_buscar_favorito_por_id(id_favorito):
     return jsonify(pokemon_completo)
 
 
+# solo para DEBUG: _leer_favoritos() es un metodo privado.
+# @app.route('/favs', methods=['GET'])
+# def endpoint_todos_favoritos():
+#     return favoritos_service._leer_favoritos()
+
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=8080)
 
